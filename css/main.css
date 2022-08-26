@@ -97,14 +97,14 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #000;
   height: 100%;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  /*font-size: 16px; */
   height: 100%;
 }
 
@@ -117,17 +117,31 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: #000;
   display: flex;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  background-color: #f7cba2;
+  height: auto;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   width: 30%;
 }
 
+.div-1, .div-2, .div-3, p {
+    padding: 1em;
+}
+
+span {
+    color: rgb(225, 72, 100);
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+
+.div-1, .div-2 {
+    border-right: 3px solid rgb(225, 72, 100);
+}
 
 
 
